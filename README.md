@@ -14,7 +14,10 @@ https://github.com/FiveDirections/OpTC-data
 
 
 # **Datapreprocessing**
-For this thesis only the ecar dataset was used, and of the ecar dataset only a subset of the
+
+This text is a quote from the master thesis : 
+
+"For this thesis only the ecar dataset was used, and of the ecar dataset only a subset of the
 data was used, this is due to the sheer size of the dataset.
 The subdata that was chosen based on the initial compromise of host based on the
 red teams day one and two activities. The host of the initial compromise of those days
@@ -36,4 +39,4 @@ seems to contain the data for the Windows event 800,4103,4104 and 400.
 Each of the json files were converted into csv files by using jq. First by using the jq
 select function for separating out the different object types process,flow,file and shell
 placing them in a temporary json file, then flattening the temporary json files into csv
-files as seen in the script function_ecar_to_csv.ipynb in the appendix B.
+files as seen in the script function_ecar_to_csv.ipynb in the appendix B." Detecting malware with parent-child process realtions(B Gulbrandsøy - 2023 - NTNU)
